@@ -1,11 +1,25 @@
-# electricity_demand_forecasting
+# Electricity Demand Forecasting
 
-dataset: https://huggingface.co/datasets/EDS-lab/electricity-demand
+This project focuses on comparing multiple forecasting models to predict electricity demand, aiming to improve:
+- Backup power planning
+- Energy storage management
+- Grid stability
 
-We have chosen to conduct a multiple model comparison project on an existing electricity demand dataset, focusing on electricity demand forecasting to provide accurate predictions that support better planning for backup power generation, efficient energy storage management, and overall grid stability. This is particularly important for integrating intermittent renewable sources like wind and solar, helping optimize their use while enabling informed purchasing and selling decisions in the energy market. 
+Accurate forecasts are crucial for optimizing intermittent renewable sources like wind and solar and supporting energy market decisions.
 
-For this project, we will use an electricity demand dataset from HuggingFace, which harmonizes multiple open smart meter datasets. The dataset contains time series data on electricity consumption and weather, spanning commercial and residential buildings across various cities in Europe and North America. Data is recorded at three frequency intervals (15minutes, 30minutes, and 1 hour) from January 2011 to December 2017. 
+## Dataset
+- **Source**: https://huggingface.co/datasets/EDS-lab/electricity-demand
+- **Content**: Time series data on electricity consumption and weather
+- **Scope**: Commercial and residential buildings in Europe and North America
+- **Frequency**: 15-minute, 30-minute, and 1-hour intervals (Jan 2011 – Dec 2017)
 
-Our approach will explore both parametric univariate methods such as ARIMA/SARIMA and multivariate methods like ARIMAX/SARIMAX, incorporating exogenous variables like weather data to improve forecasts. Additionally, we will use non-parametric Bayesian models such as Gaussian Processes.
+## Methods
+1. **Parametric Models**:
+   - ARIMA/SARIMA (univariate)
+   - ARIMAX/SARIMAX (multivariate with exogenous variables like weather)
+2. **Non-Parametric Models**:
+   - Gaussian Processes (Bayesian approach)
 
-We will evaluate our models using MAPE and RMSE metrics.
+## Evaluation Metrics
+- **Mean Absolute Percentage Error (MAPE)**
+- **Root Mean Squared Error (RMSE)**
