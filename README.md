@@ -28,7 +28,7 @@ Accurate forecasts are crucial for optimizing intermittent renewable sources lik
 
 | **Model**                              | **MAPE(%)** | **RMSE(kWh)** |
 |----------------------------------------|-------------|---------------|
-| ARIMA(2, 0, 0)                         | 8.45        | 0.0226        |
+| ARIMA(1, 0, 0)                         | 8.42        | 0.0224        |
 | Auto ARIMA(2, 1, 1)                    | 16.41       | 0.0443        |
 | Auto SARIMA(1, 1, 1)(2, 0, 2, 7)       | 10.31       | 0.0285        |
 | SARIMA(1, 1, 1)(2, 0, 2, 7) + Fourier for yearly variation | 21.27    | 0.0572        |
