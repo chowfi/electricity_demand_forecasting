@@ -101,7 +101,7 @@ Accurate forecasts are crucial for optimizing intermittent renewable sources lik
 
 
 
-![SARIMAX with Weather Data](./best%20models/SARIMAX%20w%20weather%20data.png)
+![Fine-tuned SARIMAX with Weather Data](./best%20models/Fine-tuned%20SARIMAX%20w%20weather%20data.png)
 ![Forecast Plot](./best%20models/GP%20w%20RBF%20and%20weekly%20+%20yearly%20periodic%20kernels.png)
 
 
