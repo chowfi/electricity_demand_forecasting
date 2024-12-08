@@ -22,16 +22,6 @@ Accurate forecasts are crucial for optimizing intermittent renewable sources lik
 
 ## Results
 
-| **Model**                              | **MAPE(%)** | **RMSE(kWh)** |
-|----------------------------------------|-------------|---------------|
-| ARIMA(1, 0, 0)                         | 8.42        | 0.0224        |
-| Auto ARIMA(2, 1, 1)                    | 16.41       | 0.0443        |
-| Auto SARIMA(1, 1, 1)(2, 0, 2, 7)       | 10.31       | 0.0285        |
-| SARIMA(1, 1, 1)(2, 0, 2, 7) + Fourier for yearly variation | 21.27    | 0.0572        |
-| **SARIMA(1, 1, 1)(2, 0, 2, 7) + Weather** | **4.49**    | 0.0134   |
-| GP (RBF & weekly periodic kernel)      | 9.27        | 0.0005        |
-| **GP (RBF & weekly + annual periodic kernel)** | 5.86        | **0.0002**    |
-
 
 <table>
   <thead>
@@ -59,14 +49,14 @@ Accurate forecasts are crucial for optimizing intermittent renewable sources lik
       <td>Auto ARIMA(2, 1, 1)</td>
       <td>16.41</td>
       <td>0.0443</td>
-      <td>xx</td>
+      <td>2136</td>
       <td>-4263</td>
     </tr>
     <tr>
       <td>Auto SARIMA(1, 1, 1)(2, 0, 2, 7)</td>
       <td>10.31</td>
       <td>0.0285</td>
-      <td>xx</td>
+      <td>2227</td>
       <td>-4509</td>
     </tr>
     <tr>
@@ -85,14 +75,14 @@ Accurate forecasts are crucial for optimizing intermittent renewable sources lik
     </tr>
     <tr>
       <td>GP (RBF & weekly periodic kernel)</td>
-      <td>9.27</td>
+      <td>9.270</td>
       <td>0.0005</td>
       <td>42.56</td>
       <td>-73.12</td>
     </tr>
     <tr>
       <td><b>GP (RBF & weekly + annual periodic kernel)</b></td>
-      <td><b>5.86</b></td>
+      <td><b>5.860</b></td>
       <td><b>0.0002</b></td>
       <td><b>66.84</b></td>
       <td><b>-115.68</b></td>
