@@ -68,24 +68,31 @@ Accurate forecasts are crucial for optimizing intermittent renewable sources lik
     </tr>
     <tr>
       <td><b>SARIMA(1, 1, 1)(2, 0, 2, 7) + Weather</b></td>
-      <td><b>4.870</b></td>
-      <td><b>0.0134</b></td>
-      <td><b>2311</b></td>
-      <td><b>-4605</b></td>
+      <td>4.870</td>
+      <td>0.0134</td>
+      <td><b>2311<b></td>
+      <td><b>-4605<b></td>
+    </tr>
+    <tr>
+      <td><b>Final Tuned SARIMA(1, 1, 2)(0, 1, 2, 7) + Weather</b></td>
+      <td><b>2.900<b></td>
+      <td>0.0083</td>
+      <td>2304</td>
+      <td>-4588</td>
     </tr>
     <tr>
       <td>GP (RBF & weekly periodic kernel)</td>
       <td>9.270</td>
       <td>0.0005</td>
-      <td>42.56</td>
-      <td>-73.12</td>
+      <td>43</td>
+      <td>-73</td>
     </tr>
     <tr>
       <td><b>GP (RBF & weekly + annual periodic kernel)</b></td>
-      <td><b>5.860</b></td>
+      <td>5.860</td>
       <td><b>0.0002</b></td>
-      <td><b>66.84</b></td>
-      <td><b>-115.68</b></td>
+      <td>67</td>
+      <td>-116</td>
     </tr>
   </tbody>
 </table>
