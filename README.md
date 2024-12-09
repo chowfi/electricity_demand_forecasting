@@ -31,10 +31,10 @@ Accurate forecasts are crucial for optimizing intermittent renewable sources lik
       <th colspan="2">Model Fit (Training Data)</th>
     </tr>
     <tr>
-      <th>MAPE(%)</th>
-      <th>RMSE(kWh)</th>
-      <th>Log-Likelihood</th>
-      <th>AIC</th>
+      <th>MAPE(%) &darr; </th>
+      <th>RMSE(kWh) &darr; </th>
+      <th>Log-Likelihood &uarr; </th>
+      <th>AIC &darr; </th>
     </tr>
   </thead>
   <tbody>
